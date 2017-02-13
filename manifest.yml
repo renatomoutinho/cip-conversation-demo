@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: cip-conversation-demo
+  host: cip-conversation-demo
+  disk_quota: 1024M
+  env:
+    CONNECTION_STRING: postgres://admin:FAAVVBSTIPYOXSPJ@bluemix-sandbox-dal-9-portal.4.dblayer.com:21590/compose
+    CONVERSATION_PASSWORD: DSM2YFVkH77m
+    CONVERSATION_USERNAME: 62ad2d63-1018-4a7d-b9a4-cea97ef52e74
+    WORKSPACE_ID: 49e5760c-fb80-4503-a5ee-d0750b35d0c6
